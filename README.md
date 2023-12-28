@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Projeto YouTube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma realização inspirada no desafio proposto no curso "Profissão Programador" ministrado pelo professor Paulo Victor Borges. Ao longo do curso, os conceitos essenciais transmitidos serviram como fundamento para a criação deste clone do YouTube, representando a aplicação prática de habilidades e conhecimentos adquiridos.
 
-## Available Scripts
+## Motivação
 
-In the project directory, you can run:
+A motivação por trás deste projeto foi a busca pela aplicação prática e desafiadora dos conceitos transmitidos durante o curso. O objetivo principal era replicar o icônico site de compartilhamento de vídeos, o YouTube, utilizando tecnologias de ponta e aderindo às melhores práticas de desenvolvimento.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **ReactJS com TypeScript:** Biblioteca para construir interfaces de usuário, combinada com TypeScript para adicionar tipagem estática ao código, aumentando a robustez e a manutenibilidade.
 
-### `npm test`
+- **Axios:** Biblioteca para fazer requisições HTTP, simplificando a comunicação entre o frontend e o backend.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React Dom:** Responsável pela manipulação do DOM e pela renderização de componentes React na árvore DOM.
 
-### `npm run build`
+- **React-Icons:** Oferece um conjunto abrangente de ícones prontos para uso em componentes React, proporcionando uma estilização consistente.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React-router-dom:** Facilita a navegação e a criação de rotas em uma aplicação React, possibilitando uma experiência de usuário fluida.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React-scroll-horizontal:** Biblioteca para criar rolagem horizontal, ideal para a exibição de vídeos e conteúdos similares.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Styled-components:** Permite a estilização de componentes React utilizando a técnica de CSS-in-JS, mantendo o escopo local de estilos.
 
-### `npm run eject`
+### Backend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **NodeJS com Express:** Ambiente de execução JavaScript no servidor, combinado com Express, um framework web para facilitar o desenvolvimento de aplicativos web e APIs.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Bcrypt:** Utilizado para a criptografia segura de senhas, garantindo a proteção das informações dos usuários.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Cors:** Middleware para o Express que habilita o controle de acesso a recursos de uma aplicação web a partir de outro domínio.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Dotenv:** Permite a configuração de variáveis de ambiente, útil para armazenar informações sensíveis, como chaves de API e dados de conexão com o banco de dados.
 
-## Learn More
+- **Jsonwebtoken:** Usado para a geração e verificação de tokens de autenticação, essenciais para a segurança do sistema de login.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Uuid:** Gera identificadores únicos universalmente, útil para criar IDs aleatórios para os usuários.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Nodemon:** Utilitário que monitora alterações no código e reinicia automaticamente o servidor durante o desenvolvimento, aumentando a eficiência do processo.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
